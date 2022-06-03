@@ -1,0 +1,1 @@
+python scikit-learn-template --train fake_users.csv --predict fake_users_no_label.csv --predictions_path predictions.csv --evaluation_folds 4 --label_column Fake
