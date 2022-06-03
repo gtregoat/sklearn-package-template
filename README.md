@@ -2,7 +2,7 @@
 
 This repository aims at providing a package to train a scikit-learn model (pipeline) and exploit it for prediction. For this purpose,
 it contains:
-- A machine learning package: model_package/detector
+- A machine learning package: scikit-learn-template/model_package
 - A CLI to train it from the command line
 - Example scripts to train the model and generate predictions.
 
@@ -91,7 +91,7 @@ sklearn-package-template
 ```
 
 ## Running the tests
-Coverage for the detector is 100% files and 100% lines. However, the API is untested.
+Coverage for the model_package is 100% files and 100% lines. However, the API is untested.
 
 To run the tests, go to the scikit-learn-template directory and run:
 ```shell

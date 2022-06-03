@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "scikit-learn-template"
 version = "0.1.0"
-description = "Model building module to detect if a user on an website is real or fake."
+description = "Template to build scikit-learn model. Includes a small cli for testing."
 authors = ["gtregoat <tregoat.gabriel@gmail.com>"]
 
 [tool.poetry.dependencies]
