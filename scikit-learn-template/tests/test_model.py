@@ -15,18 +15,18 @@ from unittest.mock import patch
 @pytest.fixture
 def training_data():
     return pd.DataFrame(
-        {"UserId": ["53F7429AB5",
-                    "C08F2A0901",
-                    "B124F43F6D",
-                    "6DB134D2D1",
-                    "8BD16971C5",
-                    "CCA5D7D621", ],
+        {"UserId": [1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6, ],
          "Event": ["phone_call",
-                   "click_ad",
+                   "send_add",
                    "send_sms",
                    "send_email",
-                   "click_carrousel",
-                   "click_carrousel", ],
+                   "send_newsletter",
+                   "send_newsletter", ],
          "Category": [
              "Jobs",
              "Phone",
